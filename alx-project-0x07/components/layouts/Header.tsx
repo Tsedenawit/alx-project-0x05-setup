@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-const Header: React.FC =()=>{
-    return(
-        <header className="bg-gray-800 text-white py-4">
+const Header: React.FC = () => {
+  return (
+    <header className="bg-gray-800 text-white py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <h1 className="text-2xl font-bold">ImageGen</h1>
@@ -15,7 +15,7 @@ const Header: React.FC =()=>{
         </nav>
       </div>
     </header>
-    );
+  );
 }
 
 export default Header;

@@ -1,10 +1,12 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 
-const Home : React.FC = () =>{
-  const handleGenerateImage = async ()=>{
-    console.log ("Generating images")
+
+const Home: React.FC = () => {
+  const handleGenerateImage = async () => {
+    console.log("Generating Images")
   };
-  return(
+
+  return (
     <div className="flex flex-col items-center min-h-screen bg-gray-100 p-4">
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-2">Image Generation App</h1>
@@ -27,5 +29,7 @@ const Home : React.FC = () =>{
         </div>
       </div>
      </div>
-  )
-}
+  );
+};
+
+export default Home;
